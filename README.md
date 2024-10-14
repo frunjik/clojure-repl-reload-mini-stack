@@ -12,6 +12,9 @@ https://docs.datomic.com/datomic-overview.html
 # use in repl live reloading of system
 
 >(go)
+
 >(reset)    # will run src/system.clj (and reset the system state - (pedestal server and datomic connection))
+
 >(stop)
+
 >(r)        # to only reload repl.clj

@@ -41,5 +41,5 @@
   (assoc system
          :webserver   (webserver/stop-dev)
          :database    (database/destroy)
-         :connection  nil
+         :connection  (database/close)
          ))

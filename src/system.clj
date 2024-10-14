@@ -40,6 +40,6 @@
   [system]
   (assoc system
          :webserver   (webserver/stop-dev)
-         :database    (database/destroy)
          :connection  (database/close)
+         :database    (database/destroy)
          ))
